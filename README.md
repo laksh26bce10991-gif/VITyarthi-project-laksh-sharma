@@ -57,6 +57,8 @@ QuizApp/
 ├── questions.json      # Question bank containing 50 Python questions[cite: 1]
 ├── statement.md        # Problem statement & scope document[cite: 1]
 └── README.md           # Project documentation[cite: 1]
+```
+
 
 ## Algorithmic Core & Complexity
 
