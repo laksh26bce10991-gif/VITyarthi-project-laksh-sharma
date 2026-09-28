@@ -1,0 +1,253 @@
+
+[
+  {
+    "question": "Which of the following data types is immutable in Python?",
+    "options": ["List", "Dictionary", "Tuple", "Set"],
+    "answer": 3
+  },
+  {
+    "question": "What keyword is used to define a function in Python?",
+    "options": ["func", "def", "function", "define"],
+    "answer": 2
+  },
+  {
+    "question": "What will `[x**2 for x in range(3)]` evaluate to?",
+    "options": ["[1, 4, 9]", "[0, 1, 4]", "[0, 1, 4, 9]", "[1, 2, 3]"],
+    "answer": 2
+  },
+  {
+    "question": "Which block sequence is used to handle exceptions in Python?",
+    "options": ["try / except", "try / catch", "do / catch", "error / handle"],
+    "answer": 1
+  },
+  {
+    "question": "What does len('Python') return?",
+    "options": ["5", "6", "7", "Error"],
+    "answer": 2
+  },
+  {
+    "question": "What does the 'self' parameter represent in a Python class method?",
+    "options": ["The class definition", "A global variable", "The current instance of the class", "A built-in module"],
+    "answer": 3
+  },
+  {
+    "question": "What is the output of floor division `10 // 3` in Python?",
+    "options": ["3.333", "3", "1", "3.0"],
+    "answer": 2
+  },
+  {
+    "question": "How do you access the value of key 'name' in dictionary `user = {'name': 'Alice'}`?",
+    "options": ["user.name", "user['name']", "user.get_key('name')", "user(0)"],
+    "answer": 2
+  },
+  {
+    "question": "Which standard library module handles JSON parsing in Python?",
+    "options": ["json", "jsondata", "serialize", "struct"],
+    "answer": 1
+  },
+  {
+    "question": "Which string method removes whitespace from both leading and trailing ends?",
+    "options": ["trim()", "clean()", "strip()", "slice()"],
+    "answer": 3
+  },
+  {
+    "question": "What range of numbers does `range(5)` generate?",
+    "options": ["0 to 4", "1 to 5", "0 to 5", "1 to 4"],
+    "answer": 1
+  },
+  {
+    "question": "What is the evaluation of `bool([])` in Python?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 2
+  },
+  {
+    "question": "What does `list.append(x)` do?",
+    "options": ["Adds element x to the end of the list", "Adds elements from x individually", "Inserts x at index 0", "Sorts the list with x"],
+    "answer": 1
+  },
+  {
+    "question": "What type of function is defined using the `lambda` keyword?",
+    "options": ["Recursive function", "Anonymous inline function", "Generator function", "Class constructor"],
+    "answer": 2
+  },
+  {
+    "question": "Which keyword allows modifying a variable outside the local scope inside a function?",
+    "options": ["extern", "outer", "global", "parent"],
+    "answer": 3
+  },
+  {
+    "question": "Which statement correctly describes a set in Python?",
+    "options": ["An ordered list with duplicate items", "An unordered collection of unique elements", "A key-value data structure", "An immutable sequence of numbers"],
+    "answer": 2
+  },
+  {
+    "question": "What does string immutability mean in Python?",
+    "options": ["Strings cannot be modified after creation", "Strings cannot be printed", "Strings cannot contain numbers", "Strings cannot be converted to lists"],
+    "answer": 1
+  },
+  {
+    "question": "What mode is used in `open('data.txt', 'w')`?",
+    "options": ["Read mode", "Write mode (overwrites file)", "Append mode", "Exclusive creation"],
+    "answer": 2
+  },
+  {
+    "question": "What is the key difference between `is` and `==`?",
+    "options": ["`is` checks memory identity, `==` checks value equality", "`is` checks value equality, `==` checks type", "`is` is used for numbers, `==` for strings", "There is no difference"],
+    "answer": 1
+  },
+  {
+    "question": "What data type is created by `x = 1, 2`?",
+    "options": ["List", "Set", "Tuple", "Integer"],
+    "answer": 3
+  },
+  {
+    "question": "What does the `enumerate()` function return when iterating?",
+    "options": ["Values only", "Pairs of (index, element)", "Keys and values", "Sorted indices"],
+    "answer": 2
+  },
+  {
+    "question": "What does `zip([1, 2], ['a', 'b'])` produce when iterated?",
+    "options": ["(1, 'a') and (2, 'b')", "(1, 2) and ('a', 'b')", "[1, 2, 'a', 'b']", "{1: 2, 'a': 'b'}"],
+    "answer": 1
+  },
+  {
+    "question": "Which symbol is used to apply a decorator in Python?",
+    "options": ["#", "$", "&", "@"],
+    "answer": 4
+  },
+  {
+    "question": "How do you define a class `Child` that inherits from class `Parent`?",
+    "options": ["class Child extends Parent:", "class Child(Parent):", "class Child inherits Parent:", "class Child -> Parent:"],
+    "answer": 2
+  },
+  {
+    "question": "What is the primary role of the `__init__` method in Python classes?",
+    "options": ["Delete an instance", "Import modules", "Initialize new instance attributes", "Execute the main script loop"],
+    "answer": 3
+  },
+  {
+    "question": "Which syntax represents a valid formatted string (f-string)?",
+    "options": ["f\"Hello {name}\"", "format(\"Hello %s\", name)", "\"Hello $name\"", "str.format(\"Hello\", name)"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the `pass` statement?",
+    "options": ["Exit a loop immediately", "A placeholder statement that does nothing", "Skip to the next iteration", "Return True from a function"],
+    "answer": 2
+  },
+  {
+    "question": "What does the `break` keyword do inside a loop?",
+    "options": ["Terminates the loop immediately", "Skips the current loop iteration", "Restarts the loop from index 0", "Pauses execution"],
+    "answer": 1
+  },
+  {
+    "question": "What operation does `%` perform with numbers?",
+    "options": ["Percentage calculation", "Exponentiation", "Modulo (remainder of division)", "Integer division"],
+    "answer": 3
+  },
+  {
+    "question": "What does slicing sequence `items[::-1]` do?",
+    "options": ["Returns every second item", "Reverses the sequence", "Removes the last item", "Duplicates the sequence"],
+    "answer": 2
+  },
+  {
+    "question": "Which function returns the data type of an object?",
+    "options": ["type()", "typeof()", "kind()", "classof()"],
+    "answer": 1
+  },
+  {
+    "question": "Which standard tool creates isolated Python virtual environments?",
+    "options": ["pip", "conda", "venv", "virtualpy"],
+    "answer": 3
+  },
+  {
+    "question": "Which symbol is used to write single-line comments in Python?",
+    "options": ["#", "//", "/*", "--"],
+    "answer": 1
+  },
+  {
+    "question": "What do `*args` and `**kwargs` allow in function definitions?",
+    "options": ["Type hints for arguments", "Passing variable positional and keyword arguments", "Enforcing required parameters", "Returning multiple values automatically"],
+    "answer": 2
+  },
+  {
+    "question": "Which operator calculates the union of two set objects?",
+    "options": ["&", "+", "^", "|"],
+    "answer": 4
+  },
+  {
+    "question": "Which module variable contains command-line arguments passed to a script?",
+    "options": ["os.args", "sys.argv", "env.params", "cmd.inputs"],
+    "answer": 2
+  },
+  {
+    "question": "What does `dir()` without arguments display?",
+    "options": ["Directory files on disk", "Names in current local scope", "List of installed packages", "System environment variables"],
+    "answer": 2
+  },
+  {
+    "question": "How are docstrings denoted inside Python functions or modules?",
+    "options": ["Using triple quotes \"\"\" doc \"\"\"", "Starting with //", "Enclosed in <doc> tags", "Prefixed with @doc"],
+    "answer": 1
+  },
+  {
+    "question": "What does `all([True, True, False])` evaluate to?",
+    "options": ["True", "False", "None", "1"],
+    "answer": 2
+  },
+  {
+    "question": "What does `isinstance(x, int)` verify?",
+    "options": ["If x is an instance or subclass of int", "If x can be converted to integer", "If x is a positive integer", "If x equals integer 1"],
+    "answer": 1
+  },
+  {
+    "question": "Which built-in class serves as base class for most standard exceptions?",
+    "options": ["BaseError", "RuntimeError", "Exception", "StandardError"],
+    "answer": 3
+  },
+  {
+    "question": "What is the primary benefit of using a `with` statement for file operations?",
+    "options": ["Speeds up file reading", "Automatically manages file closing and resource cleanup", "Encrypts file contents", "Prevents file deletion"],
+    "answer": 2
+  },
+  {
+    "question": "Why is `dict.get('key')` preferred over `dict['key']` in optional lookups?",
+    "options": ["Returns None instead of raising KeyError if key is missing", "Executes faster", "Converts value to string", "Deletes key after lookup"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of `int(3.8)`?",
+    "options": ["4", "3", "3.8", "Error"],
+    "answer": 2
+  },
+  {
+    "question": "What does `map(func, iterable)` do?",
+    "options": ["Filters items based on func condition", "Applies func to every item in iterable", "Sorts iterable based on func", "Combines items into a single dictionary"],
+    "answer": 2
+  },
+  {
+    "question": "What does `filter(func, sequence)` do?",
+    "options": ["Filters elements where func returns True", "Modifies elements using func", "Counts elements using func", "Removes duplicate elements"],
+    "answer": 1
+  },
+  {
+    "question": "Why are mutable default arguments (like `def f(a=[])`) risky in Python?",
+    "options": ["They raise SyntaxError", "The default list is shared across all calls that use the default", "They consume excessive RAM", "They cannot be modified inside function"],
+    "answer": 2
+  },
+  {
+    "question": "How does `copy.deepcopy()` differ from standard shallow copy `copy.copy()`?",
+    "options": ["Copies only class attributes", "Deep copy creates independent copies of nested mutable objects recursively", "Deep copy is faster", "Shallow copy converts objects to strings"],
+    "answer": 2
+  },
+  {
+    "question": "What does `id(obj)` return?",
+    "options": ["Unique memory identity integer of obj", "Class name of obj", "Hash value of obj", "Size of obj in bytes"],
+    "answer": 1
+  },
+  {
+    "question": "What is checked by `if __name__ == '__main__':`?",
+    "options": ["If the code is running without errors", "If current module is being run as the primary main script", "If main variable exists in memory", "If Python interpreter is version 3+"],
+    "answer": 2
+  }
+]
