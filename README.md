@@ -57,3 +57,23 @@ QuizApp/
 ├── questions.json      # Question bank containing 50 Python questions[cite: 1]
 ├── statement.md        # Problem statement & scope document[cite: 1]
 └── README.md           # Project documentation[cite: 1]
+
+## Algorithmic Core & Complexity
+
+This project explicitly avoids built-in shortcut functions (e.g., `max()`, `.reverse()`) to demonstrate algorithmic fundamentals:
+
+| Function | Module | Description | Time Complexity | Space Complexity |
+| :--- | :--- | :--- | :---: | :---: |
+| `is_prime(n)` | `question_bank.py` | Prime verification via Trial Division | $O(\sqrt{n})$ | $O(1)$ |
+| `reverse_array(arr)` | `utils.py` | Manual element order reversal via index manipulation | $O(n)$ | $O(n)$ |
+| `generate_fibonacci(n)` | `utils.py` | Iterative Fibonacci sequence generation | $O(n)$ | $O(n)$ |
+| `find_maximum(list)` | `utils.py` | Iterative linear search for highest score | $O(n)$ | $O(1)$ |
+
+---
+
+## Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/python-quiz-app.git](https://github.com/YOUR_USERNAME/python-quiz-app.git)
+   cd python-quiz-app
