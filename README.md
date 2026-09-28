@@ -60,22 +60,56 @@ QuizApp/
 ```
 
 
-## Algorithmic Core & Complexity
+Algorithmic Core & Complexity
 
-This project explicitly avoids built-in shortcut functions (e.g., `max()`, `.reverse()`) to demonstrate algorithmic fundamentals:
+This project explicitly avoids built-in shortcut functions such as max() and .reverse() to demonstrate fundamental algorithmic concepts and implementation techniques.
 
-| Function | Module | Description | Time Complexity | Space Complexity |
-| :--- | :--- | :--- | :---: | :---: |
-| `is_prime(n)` | `question_bank.py` | Prime verification via Trial Division | $O(\sqrt{n})$ | $O(1)$ |
-| `reverse_array(arr)` | `utils.py` | Manual element order reversal via index manipulation | $O(n)$ | $O(n)$ |
-| `generate_fibonacci(n)` | `utils.py` | Iterative Fibonacci sequence generation | $O(n)$ | $O(n)$ |
-| `find_maximum(list)` | `utils.py` | Iterative linear search for highest score | $O(n)$ | $O(1)$ |
+Function	Module	Description	Time Complexity	Space Complexity
+is_prime(n)	question_bank.py	Prime number verification using Trial Division	O(√n)	O(1)
+reverse_array(arr)	utils.py	Manually reverses element order using index manipulation	O(n)	O(n)
+generate_fibonacci(n)	utils.py	Generates a Fibonacci sequence iteratively	O(n)	O(n)
+find_maximum(list)	utils.py	Iterative linear search to find the highest score	O(n)	O(1)
+Installation & Setup
+1. Clone the Repository
+git clone https://github.com/YOUR_USERNAME/python-quiz-app.git
+cd python-quiz-app
 
----
+2. Verify File Layout
 
-## Installation & Setup
+Make sure questions.json is located in the exact same directory as main.py.
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/python-quiz-app.git](https://github.com/YOUR_USERNAME/python-quiz-app.git)
-   cd python-quiz-app
+Example:
+
+python-quiz-app/
+├── main.py
+├── questions.json
+├── question_bank.py
+└── utils.py
+
+3. Requirements
+
+Python 3.8 or higher
+
+No external third-party dependencies are required.
+
+The project uses Python's standard library modules, including:
+
+json
+
+os
+
+random
+
+How to Run
+
+Launch the main application by running:
+
+python main.py
+
+
+On some systems, you may need to use:
+
+python3 main.py
+
+
+The application will start in the terminal and load the quiz questions from questions.json.
