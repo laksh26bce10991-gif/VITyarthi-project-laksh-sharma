@@ -2,7 +2,6 @@
 # Algorithmic & Assessment Engine Quiz System
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-![Course](https://img.shields.io/badge/Course-CSE1021%20Problem%20Solving%20%26%20Programming-orange)
 ![Platform](https://img.shields.io/badge/Platform-VITyarthi-green)
 
 An interactive, terminal-based Command Line Interface (CLI) Quiz Application built in Python. Developed for **CSE1021: Introduction to Problem Solving and Programming** under the **VITyarthi** project guidelines, this application evaluates programming knowledge while showcasing fundamental computer science algorithms.
