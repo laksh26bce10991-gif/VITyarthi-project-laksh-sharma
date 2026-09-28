@@ -79,12 +79,12 @@ This project explicitly avoids built-in shortcut functions (e.g., `max()`, `.rev
    ```bash
    git clone [https://github.com/YOUR_USERNAME/python-quiz-app.git](https://github.com/YOUR_USERNAME/python-quiz-app.git)
    cd python-quiz-app
-### Verify File Layout
-Ensure `questions.json` sits in the exact same directory as `main.py`[cite: 1, 2].
+2. **Verify File Layout**
+   Ensure `questions.json` sits in the exact same directory as `main.py`[cite: 1, 2].
 
-### Requirements
-* **Python Version:** Python 3.8 or higher installed[cite: 1].
-* **Dependencies:** No external third-party dependencies required (uses standard library `json`, `os`, `random`)[cite: 1].
+3. **Requirements**
+   **Python Version:** Python 3.8 or higher installed[cite: 1].
+   **Dependencies:** No external third-party dependencies required (uses standard library `json`, `os`, `random`)[cite: 1].
 
 
 
