@@ -81,8 +81,6 @@ This project explicitly avoids built-in shortcut functions (e.g., `max()`, `.rev
    cd python-quiz-app
 
 
-python main.py
-```[cite: 1]
 
 ### CLI Application Workflow:
 1. **Register**: Select option `1` to create a new user profile[cite: 1].
