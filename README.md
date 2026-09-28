@@ -85,6 +85,11 @@ This project explicitly avoids built-in shortcut functions (e.g., `max()`, `.rev
    **Python Version:** Python 3.8 or higher installed[cite: 1].
    **Dependencies:** No external third-party dependencies required (uses standard library `json`, `os`, `random`)[cite: 1].
 
+### How to Run
+  **Launch the main application entry point:**
+    ```bash
+    python main.py
+
 
 
 ### CLI Application Workflow:
