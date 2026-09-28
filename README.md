@@ -135,3 +135,9 @@ You can independently test the algorithmic utility functions from your terminal:
 - **Unit 3: Control Flow & Iteration**: Implemented via interactive loops, input validation blocks, and conditional branching in `quiz_engine.py` and `main.py`[cite: 1].
 - **Unit 4: Compound Data Types & Factoring**: Implemented via dictionary/tuple usage for storing user credentials and trial division algorithms in `question_bank.py`[cite: 1].
 - **Unit 5: Array Operations & Search Techniques**: Implemented via manual array reversal and linear maximum value search algorithms in `utils.py`[cite: 1].
+
+## Screenshot
+<img width="961" height="408" alt="Screenshot 2026-09-28 194522" src="https://github.com/user-attachments/assets/9820b3ad-8cc3-4cd3-80dd-a59011575800" />
+<img width="1431" height="210" alt="Screenshot 2026-09-28 194415" src="https://github.com/user-attachments/assets/b62760cd-e23e-4288-ad9b-10d52cf638cb" />
+<img width="790" height="222" alt="Screenshot 2026-09-28 194553" src="https://github.com/user-attachments/assets/f8be2a0b-0fd2-4bc2-a641-292bc1853994" />
+
