@@ -87,7 +87,7 @@ This project explicitly avoids built-in shortcut functions (e.g., `max()`, `.rev
 
 ### How to Run
   **Launch the main application entry point:**
-    ```bash
+    
     python main.py
 
 
