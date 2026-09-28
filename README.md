@@ -60,56 +60,70 @@ QuizApp/
 ```
 
 
-Algorithmic Core & Complexity
+## Algorithmic Core & Complexity
 
-This project explicitly avoids built-in shortcut functions such as max() and .reverse() to demonstrate fundamental algorithmic concepts and implementation techniques.
+This project explicitly avoids built-in shortcut functions (e.g., `max()`, `.reverse()`) to demonstrate algorithmic fundamentals:
 
-Function	Module	Description	Time Complexity	Space Complexity
-is_prime(n)	question_bank.py	Prime number verification using Trial Division	O(√n)	O(1)
-reverse_array(arr)	utils.py	Manually reverses element order using index manipulation	O(n)	O(n)
-generate_fibonacci(n)	utils.py	Generates a Fibonacci sequence iteratively	O(n)	O(n)
-find_maximum(list)	utils.py	Iterative linear search to find the highest score	O(n)	O(1)
-Installation & Setup
-1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/python-quiz-app.git
-cd python-quiz-app
+| Function | Module | Description | Time Complexity | Space Complexity |
+| :--- | :--- | :--- | :---: | :---: |
+| `is_prime(n)` | `question_bank.py` | Prime verification via Trial Division | $O(\sqrt{n})$ | $O(1)$ |
+| `reverse_array(arr)` | `utils.py` | Manual element order reversal via index manipulation | $O(n)$ | $O(n)$ |
+| `generate_fibonacci(n)` | `utils.py` | Iterative Fibonacci sequence generation | $O(n)$ | $O(n)$ |
+| `find_maximum(list)` | `utils.py` | Iterative linear search for highest score | $O(n)$ | $O(1)$ |
 
-2. Verify File Layout
+---
 
-Make sure questions.json is located in the exact same directory as main.py.
+## Installation & Setup
 
-Example:
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/python-quiz-app.git](https://github.com/YOUR_USERNAME/python-quiz-app.git)
+   cd python-quiz-app
 
-python-quiz-app/
-├── main.py
-├── questions.json
-├── question_bank.py
-└── utils.py
-
-3. Requirements
-
-Python 3.8 or higher
-
-No external third-party dependencies are required.
-
-The project uses Python's standard library modules, including:
-
-json
-
-os
-
-random
-
-How to Run
-
-Launch the main application by running:
 
 python main.py
+```[cite: 1]
 
+### CLI Application Workflow:
+1. **Register**: Select option `1` to create a new user profile[cite: 1].
+2. **Login & Take Quiz**: Select option `2` to authenticate and take a 10-question randomized quiz[cite: 1].
+3. **View Profile & Analytics**: Select option `3` to inspect your attempt history, highest score, and percentage average[cite: 1].
+4. **Exit**: Select option `4` to end the session[cite: 1].
 
-On some systems, you may need to use:
+---
 
-python3 main.py
+## Verification & Unit Testing
 
+You can independently test the algorithmic utility functions from your terminal:
 
-The application will start in the terminal and load the quiz questions from questions.json.
+* **Test Manual Array Reversal:**
+  ```bash
+  python -c "from utils import reverse_array; print(reverse_array([10, 20, 30, 40]))"
+  # Output: [40, 30, 20, 10]
+  ```[cite: 1]
+
+* **Test Prime Verification:**
+  ```bash
+  python -c "from question_bank import is_prime; print(is_prime(29))"
+  # Output: True
+  ```[cite: 1]
+
+* **Test Fibonacci Sequence Generator:**
+  ```bash
+  python -c "from utils import generate_fibonacci; print(generate_fibonacci(7))"
+  # Output: [0, 1, 1, 2, 3, 5, 8]
+  ```[cite: 1]
+
+* **Test Linear Max Search:**
+  ```bash
+  python -c "from utils import find_maximum; print(find_maximum([4, 9, 2, 10, 5]))"
+  # Output: 10
+  ```[cite: 1]
+
+---
+
+## Course Syllabus Alignment
+
+- **Unit 3: Control Flow & Iteration**: Implemented via interactive loops, input validation blocks, and conditional branching in `quiz_engine.py` and `main.py`[cite: 1].
+- **Unit 4: Compound Data Types & Factoring**: Implemented via dictionary/tuple usage for storing user credentials and trial division algorithms in `question_bank.py`[cite: 1].
+- **Unit 5: Array Operations & Search Techniques**: Implemented via manual array reversal and linear maximum value search algorithms in `utils.py`[cite: 1].
